@@ -28,7 +28,7 @@ class UserCard extends React.Component {
                     <p>{this.props.user.location}</p>
                 </div>
                 <div className="followers">
-                    <h2>Followers:</h2>
+                    <h2>Followers: </h2>
                     
                     {this.state.userFollowers.map((item) => <p>{item.login}</p>)}
                 </div>
